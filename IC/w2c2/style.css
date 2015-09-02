@@ -1,0 +1,41 @@
+header{
+  text-align: center;
+  border: thin solid black;
+}
+
+nav{
+  border: thin solid black;
+}
+
+main{
+  float:left;
+  border: thin solid black;
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+#summary{
+  width:25%;
+  height:100%;
+
+  text-align: center;
+  float:left;
+}
+
+#main{
+  width:74.8%;
+  height:100%;
+  border: thin solid black;
+  float: right;
+}
+
+.bold{
+  font-weight:bold;
+}
+
+footer{
+  text-align:center;
+  border: thin solid black;
+}
