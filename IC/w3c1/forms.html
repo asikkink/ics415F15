@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> ICS 415 A04 - Forms</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+<header><h1>Anna's Cool Website</h1></header>
+<nav><a href="home.html">Home</a> <a href="forms.html">Forms</a></nav>
+<main><section id="summary"><p class="bold">Summary Window</p><p>HTML supports tables.</p><p>HTML supports three different types of lists; unordered, ordered, and description.</p></section>
+  <section id="main">
+    <form action="forms.html" method="get">
+      <p>The following is a text input:</p>
+      Username:
+      <input type="text" name="username">
+      <p>Then a password input:</p>
+      Password:
+      <input type="password" name="password">
+      <p>Radio Buttons:</p>
+      <input type="radio" name="sex" value="male">Male<br>
+      <input type="radio" name="sex" value="female">Female
+
+      <p>Checkboxes:</p>
+      <input type="checkbox" name="os" value="windows"> Windows<br>
+      <input type="checkbox" name="os" value="osx"> OS X<br>
+      <input type="checkbox" name="os" value="linux"> Linux
+
+      <p>Submit button to send form data:</p>
+      <input type="submit" value="Submit">
+
+    </form>
+  </section></main>
+<footer>Copyright &copy; Anna Sikkink</footer>
+</body>
+</html>
