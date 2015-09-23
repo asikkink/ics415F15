@@ -24,7 +24,9 @@ $(function() {
 
   //change col1's image when col3 is clicked
   $("#col3").click(function(){
+    $("#col1").hide();
     $("#col1").html("<img src='3unicorn3.jpg' style='height:300px'>");
+    $("#col1").fadeIn("slow");
   });
 
     //change col2's image when col4 is double clicked
